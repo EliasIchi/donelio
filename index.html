@@ -1,28 +1,24 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="es">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width,initial-scale=1.0">
-<title>Don Elio Pastas & Pizzas</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Don Elio Pedidos</title>
 <link rel="stylesheet" href="style.css">
 </head>
 <body>
-
 <header>
 <h1>Don Elio Pastas & Pizzas</h1>
-<p>Pedidos online</p>
+<input id="buscar" placeholder="Buscar producto...">
 </header>
-
-<section class="menu" id="productos"></section>
-
-<div class="carrito">
-<h2>Pedido</h2>
+<div id="productos" class="menu"></div>
+<aside class="carrito">
+<h2>Carrito</h2>
 <div id="cart"></div>
-<button onclick="enviarWhatsapp()">Enviar por WhatsApp</button>
-</div>
-
+<h3>Total: $<span id="total">0</span></h3>
+<button onclick="enviarWhatsapp()">Enviar Pedido</button>
+</aside>
 <script src="productos.js"></script>
 <script src="app.js"></script>
-
 </body>
 </html>
