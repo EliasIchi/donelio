@@ -38,3 +38,6 @@ background:white;
 padding:20px;
 border-radius:12px;
 }
+
+input{padding:12px;width:100%;max-width:500px;margin:15px auto;display:block}
+.carrito{position:sticky;bottom:0}
